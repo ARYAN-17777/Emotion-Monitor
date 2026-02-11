@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Emotion Monitor",
+    "slug": "emotion-monitor",
+    "version": "1.0.3",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aryan.emotionmonitor",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.aryan.emotionmonitor"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Emotion Monitor to access your camera to detect emotions.",
+          "microphonePermission": "Allow Emotion Monitor to access your microphone for audio analysis."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b338f8dd-cf8c-44f7-9204-85d9e91f4c10"
+      }
+    }
+  }
+}

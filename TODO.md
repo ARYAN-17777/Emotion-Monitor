@@ -1,0 +1,13 @@
+- [x] Edit the card style in src/screens/HomeScreen.js to add flex: 1 for equal width cards.
+- Fix App.js to import and render AppNavigator.
+- Update package.json dependencies to compatible versions for React Native 0.72.
+- Run npm install to update dependencies.
+- Configure Android: update AndroidManifest.xml for camera, audio permissions, and hardware features.
+- Update android/build.gradle and android/app/build.gradle for VisionCamera and TensorFlow dependencies.
+- Fix metro.config.js and babel.config.js to include react-native-reanimated plugin.
+- Check and fix src/utils/emotionProcessor.js for TensorFlow initialization.
+- Verify other screens for correct imports and syntax.
+- Run npm start to check metro bundler.
+- Run npm run android to build the app.
+- Fix any build errors that appear.
+- Generate release APK using cd android && ./gradlew assembleRelease.

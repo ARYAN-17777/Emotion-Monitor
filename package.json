@@ -1,0 +1,36 @@
+{
+  "name": "emotion-monitor",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "open chrome": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/stack": "^7.0.0",
+    "@types/react": "~19.1.10",
+    "expo": "~54.0.0",
+    "expo-camera": "~17.0.10",
+    "expo-gl": "~16.0.10",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-native": "0.84.0",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-reanimated": "~4.2.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "^15.15.3",
+    "react-native-svg-transformer": "^1.5.3",
+    "react-native-web": "^0.21.0",
+    "typescript": "~5.9.2"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@react-native/metro-config": "0.84.0"
+  }
+}
